@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -7,8 +8,8 @@ export default function Home() {
             <div className="navbar">
                 <ul>
                     <li>Beranda</li>
-                    <li><a href="#tentang-kami" className="a-navbar">Tentang Kami</a></li>
-                    <li><a href="#kontak" className="a-navbar">Kontak</a></li>
+                    <li><Link href="#tentang-kami" className="a-navbar">Tentang Kami</Link></li>
+                    <li><Link href="#kontak" className="a-navbar">Kontak</Link></li>
                 </ul>
             </div>
             <div className="header" id="beranda">
@@ -20,12 +21,12 @@ export default function Home() {
                         <div className="header-title">Konsultasi Bisnis UMKM</div>
                         <div className="header-subtitle">Konsultan spesialis UMKM berpengalaman lebih dari 3 tahun. Kami percaya setiap bisnis itu unik dan membutuhkan pendekatan yang berbeda-beda. Kami siap memberi solusi terbaik untuk tantangan bisnis Anda.</div>
                         <div className="order-button">
-                            <div className="header-button"><a href="#">Konsultasi Sekarang</a></div>
+                            <div className="header-button"><Link href="#">Konsultasi Sekarang</Link></div>
                             <div className="header-button-wa">
                                 <div className="button-wa-icon">
                                   <Image src="/WhatsApp.svg" alt="whatsapp logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'25px'}}/>
                                 </div>
-                                <div className="button-wa-text"><a href="#">Hubungi via Whatsapp</a></div>
+                                <div className="button-wa-text"><Link href="#">Hubungi via Whatsapp</Link></div>
                             </div>
                         </div>
                     </div>
@@ -132,7 +133,7 @@ export default function Home() {
                     <div className="button-wa-icon">
                       <Image src="/WhatsApp.svg" alt="whatsapp logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'25px'}}/>
                     </div>
-                    <div className="button-wa-text"><a href="#">Hubungi via Whatsapp</a></div>
+                    <div className="button-wa-text"><Link href="#">Hubungi via Whatsapp</Link></div>
                 </div>
             </div>
         </div>
