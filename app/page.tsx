@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="header-left">
                     <div className="header-left-container">
                         <div className="logo">
-                          <Image src="/Logo.png" alt="AHS Konsultan Logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/Logo.jpg" alt="AHS Konsultan Logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="header-title">Konsultasi Bisnis UMKM</div>
                         <div className="header-subtitle">Konsultan spesialis UMKM berpengalaman lebih dari 3 tahun. Kami percaya setiap bisnis itu unik dan membutuhkan pendekatan yang berbeda-beda. Kami siap memberi solusi terbaik untuk tantangan bisnis Anda.</div>
@@ -50,25 +50,25 @@ export default function Home() {
                 <div className="layanan-content">
                     <div className="content">
                         <div className="icon">
-                          <Image src="/Logo2.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/pengembanganBisnis.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="content-title">Pengembangan Bisnis</div>
                     </div>
                     <div className="content">
                         <div className="icon">
-                          <Image src="/Logo2.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/manajemenKeuangan.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="content-title">Manajemen Keuangan</div>
                     </div>
                     <div className="content">
                         <div className="icon">
-                          <Image src="/Logo2.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/manajemenSdm.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="content-title">Manajemen SDM</div>
                     </div>
                     <div className="content">
                         <div className="icon">
-                          <Image src="/Logo2.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/analisisData.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="content-title">Analisis Data</div>
                     </div>
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <div className="sublayanan-content">
                     <div className="sublayanan-icon">
-                      <Image src="/Logo2.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                      <Image src="/melihatPeluangPasar.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                     </div>
                     <div className="sublayanan-subtitle">Melihat peluang pasar</div>
                     <div className="sublayanan-subtitle1">Menemukan peluang yang ada untuk membuat bisnis anda lebih berkembang</div>
