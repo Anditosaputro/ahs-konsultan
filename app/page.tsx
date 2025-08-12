@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="header-left">
                     <div className="header-left-container">
                         <div className="logo">
-                          <Image src="/Logo.jpg" alt="AHS Konsultan Logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/logo.png" alt="AHS Konsultan Logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="header-title">Konsultasi Bisnis UMKM</div>
                         <div className="header-subtitle">Konsultan spesialis UMKM berpengalaman lebih dari 3 tahun. Kami percaya setiap bisnis itu unik dan membutuhkan pendekatan yang berbeda-beda. Kami siap memberi solusi terbaik untuk tantangan bisnis Anda.</div>
@@ -74,7 +74,7 @@ export default function Home() {
                     </div>
                     <div className="content">
                         <div className="icon">
-                          <Image src="/Logo2.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                          <Image src="/strategiPemasaran.png" alt="Pengembangan Bisnis icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                         </div>
                         <div className="content-title">Strategi Pemasaran</div>
                     </div>
@@ -107,14 +107,14 @@ export default function Home() {
                 <div className="sublayanan-title">Apa yang akan anda dapatkan?</div>
                 <div className="sublayanan-content">
                     <div className="sublayanan-icon">
-                      <Image src="/Logo2.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                      <Image src="/bisnisMenjadiEfisien.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                     </div>
                     <div className="sublayanan-subtitle">Bisnis menjadi efisien</div>
                     <div className="sublayanan-subtitle1">Efisiensi bisnis anda dengan merapikan operasional, pengeluaran, manajemen sumber daya</div>
                 </div>
                 <div className="sublayanan-content">
                     <div className="sublayanan-icon">
-                      <Image src="/Logo2.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
+                      <Image src="/minimalisirResikoBisnis.png" alt="Bisnis menjadi efisien icon" width={0} height={0} sizes="100vw" style={{width:'100%',height:'auto'}}/>
                     </div>
                     <div className="sublayanan-subtitle">Minimalisir resiko bisnis</div>
                     <div className="sublayanan-subtitle1">Perbaiki proses bisnis dan strategi minimalisir resiko untuk menghindarkan bisnis anda dari kerugian</div>
