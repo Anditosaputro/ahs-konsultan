@@ -81,9 +81,6 @@ export default function Home() {
                 </div>
             </div>
             <div className="profil" id="tentang-kami">
-                <div className="image-profil">
-                  <Image src="/building.png" alt="office building" className="profil-background" width={0} height={0} sizes="100vw" style={{width:'auto',height:'100%'}}/>
-                </div>
                 <div className="profil-container">
                     <div className="profil-image">
                       <Image src="/photo_andito.png" alt="andito's photo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'100%'}}/>

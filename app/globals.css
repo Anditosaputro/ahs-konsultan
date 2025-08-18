@@ -170,11 +170,7 @@ a{
     width: 100%;
     max-width: 1440px;
     height: 500px;
-    position: relative;
     display: flex;
-}
-.profil-background{
-    display: block;
 }
 .profil-container{
     width: 30%;
@@ -182,7 +178,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     bottom: 0;
     background-color: rgba(0, 168, 232, 0.9);
 }
@@ -195,7 +190,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     bottom: 0;
     right: 0;
     background-color: rgba(0, 168, 232, 0.9);
