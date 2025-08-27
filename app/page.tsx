@@ -21,12 +21,12 @@ export default function Home() {
                         <div className="header-title">Konsultasi Bisnis UMKM</div>
                         <div className="header-subtitle">Konsultan spesialis UMKM berpengalaman lebih dari 3 tahun. Kami percaya setiap bisnis itu unik dan membutuhkan pendekatan yang berbeda-beda. Kami siap memberi solusi terbaik untuk tantangan bisnis Anda.</div>
                         <div className="order-button">
-                            <div className="header-button"><Link href="#">Konsultasi Sekarang</Link></div>
+                            <div className="header-button"><Link href="https://wa.me/6285176758036" target="_blank">Konsultasi Sekarang</Link></div>
                             <div className="header-button-wa">
                                 <div className="button-wa-icon">
                                   <Image src="/WhatsApp.svg" alt="whatsapp logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'25px'}}/>
                                 </div>
-                                <div className="button-wa-text"><Link href="#">Hubungi via Whatsapp</Link></div>
+                                <div className="button-wa-text"><Link href="https://wa.me/6285176758036" target="_blank">Hubungi via Whatsapp</Link></div>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@ export default function Home() {
                     <div className="button-wa-icon">
                       <Image src="/WhatsApp.svg" alt="whatsapp logo" width={0} height={0} sizes="100vw" style={{width:'100%',height:'25px'}}/>
                     </div>
-                    <div className="button-wa-text"><Link href="#">Hubungi via Whatsapp</Link></div>
+                    <div className="button-wa-text"><Link href="https://wa.me/6285176758036" target="_blank">Hubungi via Whatsapp</Link></div>
                 </div>
             </div>
         </div>
