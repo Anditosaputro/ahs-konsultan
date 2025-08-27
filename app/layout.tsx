@@ -9,7 +9,7 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: "Konsultasi Bisnis UMKM",
   description: "AHS Konsultan konsultasi bisnis UMKM terbaik",
-  metadataBase: new URL('https://ahskonsultan.xyz'),
+  metadataBase: new URL('https://www.ahskonsultan.xyz'),
   alternates: {
     canonical: '/',
   },
